@@ -81,9 +81,8 @@ class AppLayout extends StatelessWidget {
                               ? _navItems[i]['iconActive'] as IconData
                               : _navItems[i]['icon'] as IconData,
                           size: 22,
-                          color: active
-                              ? AppTheme.primary
-                              : Colors.grey.shade400,
+                          color:
+                              active ? AppTheme.primary : Colors.grey.shade400,
                         ),
                         const SizedBox(height: 2),
                         Text(
